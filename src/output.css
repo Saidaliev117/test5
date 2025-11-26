@@ -558,6 +558,10 @@ video {
   position: absolute;
 }
 
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
 .ml-10 {
   margin-left: 2.5rem;
 }
@@ -598,12 +602,12 @@ video {
   margin-top: 350px;
 }
 
-.mb-\[\] {
-  margin-bottom: ;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
-.mb-\[30px\] {
-  margin-bottom: 30px;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .flex {
@@ -622,8 +626,8 @@ video {
   width: 100px;
 }
 
-.flex-row {
-  flex-direction: row;
+.w-\[500px\] {
+  width: 500px;
 }
 
 .flex-col {
@@ -638,16 +642,12 @@ video {
   align-items: center;
 }
 
-.rounded-\[50px\] {
-  border-radius: 50px;
-}
-
-.rounded-\[10px\] {
-  border-radius: 10px;
-}
-
 .rounded-\[30px\] {
   border-radius: 30px;
+}
+
+.rounded-\[50px\] {
+  border-radius: 50px;
 }
 
 .border-\[1px\] {
@@ -683,6 +683,11 @@ video {
   padding-right: 0.25rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -693,26 +698,16 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 .text-center {
   text-align: center;
 }
 
-.text-\[30px\] {
-  font-size: 30px;
-}
-
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 .font-bold {
@@ -747,6 +742,10 @@ video {
     margin-left: 0.75rem;
   }
 
+  .xl\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
   .xl\:ml-\[100px\] {
     margin-left: 100px;
   }
@@ -775,8 +774,12 @@ video {
     margin-top: 5rem;
   }
 
-  .xl\:ml-5 {
-    margin-left: 1.25rem;
+  .xl\:ml-\[130px\] {
+    margin-left: 130px;
+  }
+
+  .xl\:ml-\[170px\] {
+    margin-left: 170px;
   }
 
   .xl\:block {
@@ -793,6 +796,30 @@ video {
 
   .xl\:w-\[70\%\] {
     width: 70%;
+  }
+
+  .xl\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .xl\:w-\[700px\] {
+    width: 700px;
+  }
+
+  .xl\:w-\[800px\] {
+    width: 800px;
+  }
+
+  .xl\:w-\[900px\] {
+    width: 900px;
+  }
+
+  .xl\:w-\[1000px\] {
+    width: 1000px;
+  }
+
+  .xl\:w-\[\] {
+    width: ;
   }
 
   .xl\:flex-row {
